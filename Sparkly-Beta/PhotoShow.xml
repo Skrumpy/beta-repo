@@ -2,7 +2,7 @@
 <Container>
 <Name>Shotwell</Name>
 <Beta>False</Beta>
-<Category>MediaApp:Photos</Category>
+<Category>MediaApp:Photos MediaServer:Photos</Category>
 <Changes>
 [center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
  
