@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Container>
-<Name>Shotwell</Name>
+<Name>Photoshow</Name>
 <Beta>False</Beta>
 <Category>MediaApp:Photos MediaServer:Photos</Category>
 <Changes>
