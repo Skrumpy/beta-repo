@@ -13,6 +13,7 @@
 - Added Imagemagick and php5-imagick
 - Refine start sequence, including setting TZ
 - Remove php5-imagick, unstable with both Imagemagick and it
+- Added FFMPEG for limited video support
 </Changes>
 <Description>Photoshow is a web gallery app which can use local files without the need to import them[b][br][br]You must change host port 80 to avoid clash with unraid webui[br][br]Map /Pictures to your unraid photo library and /Thumbs to somewhere on your appdata share</Description>
 <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
