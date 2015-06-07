@@ -12,7 +12,7 @@
 - Add Config and Comic Mappings to Template
 - Add Unrar support
 </Changes>
-  <Description>ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.[/b][br]Map /nobody/.ComicTagger to your unraid appdata folder, for settings[br]Map /nobody/Comics to your unraid folder containing Comics[br][b]To increase screen resolution[br]Toggle advanced in this template and adjust[br]HEIGHT and WIDTH to suit[/b]</Description>
+  <Description>ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.[/b][br][br][br]Register at http://www.comicvine.com/ and obtain an api code, paste into the COMICCODE variable field[br]Map /nobody/.ComicTagger to your unraid appdata folder, for settings[br]Map /nobody/Comics to your unraid folder containing Comics[br][b]To increase screen resolution[br]Toggle advanced in this template and adjust[br]HEIGHT and WIDTH to suit[/b]</Description>
   <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
   <Overview>ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.</Overview>
   <Registry>https://registry.hub.docker.com/u/sparklyballs/comictagger/</Registry>
@@ -27,6 +27,10 @@
 <Variable>
 <Name>HEIGHT</Name>
 <Value>720</Value>
+</Variable>
+<Variable>
+<Name>COMICCODE</Name>
+<Value></Value>
 </Variable>
 </Environment>
   <Networking>
