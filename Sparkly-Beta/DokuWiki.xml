@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>DokuWiki</Name>
+<Beta>False</Beta>
+<Category>Network:Other</Category>
+<Overview>DokuWiki is a simple to use and highly versatile Open Source wiki software that doesn't require a database. It is loved by users for its clean and readable syntax. The ease of maintenance, backup and integration makes it an administrator's favorite. Built in access controls and authentication connectors make DokuWiki especially useful in the enterprise context and the large number of plugins contributed by its vibrant community allow for a broad range of use cases beyond a traditional wiki.</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
+<Description>DokuWiki is a simple to use and highly versatile Open Source wiki software that doesn't require a database.[br][br][br][br]ON FIRST RUN, CHANGE LAST SECTION OF URL TO install.php[br]Fill in the form there[br]Map /var/www/dokuwiki to your appdata folder, for persistent data.[br][b]IMPORTANT :- YOU MUST CHANGE THE HOST PORT BELOW[/b]</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/dokuwiki/</Registry>
+<Repository>sparklyballs/dokuwiki</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>80</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/var/www/dokuwiki</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir></ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:80]/doku.php</WebUI>
+<Banner></Banner>
+<Icon>http://i.imgur.com/RMUp6a7.png</Icon>
+</Container>
