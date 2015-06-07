@@ -9,7 +9,7 @@
 [center][font size=5]Comictagger Change Log[/font][/center]
 [font size=4]2015.06.07[/font]
 - Initial Release
-- Add Config Mapping
+- Add Config Mapping to Template
 </Changes>
   <Description>ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.[/b][br][br][b]To increase screen resolution[br]Toggle advanced in this template and adjust[br]HEIGHT and WIDTH to suit[/b]</Description>
   <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
