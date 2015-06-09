@@ -2,6 +2,7 @@
 <Container>
   <Name>ComicTagger</Name>
  <Beta>False</Beta>
+ <Date>2015-06-07</Date>
 <Category>MediaApp:Books</Category>
   <Changes>
 [center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
@@ -14,6 +15,9 @@
 - Add COMICCODE variable for comic vine api
 [font size=4]2015.06.08[/font]
 - Add python-imaging
+[font size=4]2015.06.08[/font]
+- Rebased with x11rdp-1.2 image.
+- Resolved PIL/PILLOW issues.
 </Changes>
   <Description>ComicTagger is a multi-platform app for writing metadata to digital comics, written in Python and PyQt.[/b][br][br][br]Register at http://www.comicvine.com/ and obtain an api code, paste into the COMICCODE variable field[br]Map /nobody/.ComicTagger to your unraid appdata folder, for settings[br]Map /nobody/Comics to your unraid folder containing Comics[br][b]To increase screen resolution[br]Toggle advanced in this template and adjust[br]HEIGHT and WIDTH to suit[/b]</Description>
   <Support>http://lime-technology.com/forum/index.php?topic=38232.0</Support>
