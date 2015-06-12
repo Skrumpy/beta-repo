@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Container>
+<Name>Maria-WebSQL</Name>
+<Beta>False</Beta>
+<Category>Network:Other Tools:</Category>
+<Date>2015-06-12</Date>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+ 
+[center][font size=5]Maria-WebSQL Change Log[/font][/center]
+[font size=4]2015-06-12[/font]
+- Initial Release
+</Changes>
+<Overview>Mariadb server with a baked in mywebsql interface for admin, also contains mysqltuner for database optimisation.</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
+<Description>Mariadb server with a baked in mywebsql interface for admin, also contains mysqltuner for database optimisation.[br][br][b]YOU MUST CHANGE THE HOST PORT 80 TO AVOID CLASH WITH UNRAID WEBUI.[/b][br]Map /db to appdata for database persistance and /config for access to my.cnf</Description>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/mariadb-mywebsql/</Registry>
+<Repository>sparklyballs/mariadb-mywebsql</Repository>
+<BindTime>true</BindTime>
+<Privileged>false</Privileged>
+<Networking>
+<Mode>bridge</Mode>
+<Publish>
+<Port>
+<HostPort>80</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+<Port>
+<HostPort>3306</HostPort>
+<ContainerPort>3306</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+</Publish>
+</Networking>
+<Environment>
+<Variable>
+<Name></Name>
+<Value></Value>
+</Variable>
+</Environment>
+<Data>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/db</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+</Data>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
+<Banner></Banner>
+<Icon></Icon>
+</Container>
