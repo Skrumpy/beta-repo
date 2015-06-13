@@ -13,7 +13,7 @@
 </Changes>
 <Overview>Mariadb server with a baked in mywebsql interface for admin, also contains mysqltuner for database optimisation.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
-<Description>Mariadb server with a baked in mywebsql interface for admin, also contains mysqltuner for database optimisation.[br][br][b]YOU MUST CHANGE THE HOST PORT 80 TO AVOID CLASH WITH UNRAID WEBUI.[/b][br]Map /db to appdata for database persistance and /config for access to my.cnf</Description>
+<Description>Mariadb server with a baked in mywebsql interface for admin, also contains mysqltuner for database optimisation.[br][br][b]YOU MUST CHANGE THE HOST PORT 80 TO AVOID CLASH WITH UNRAID WEBUI.[/b][br]Map /db to appdata for database persistance and /config for access to my.cnf[br][br]docker exec Maria-WebSQL mysqltuner gives you optimisation hints</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/mariadb-mywebsql/</Registry>
 <Repository>sparklyballs/mariadb-mywebsql</Repository>
 <BindTime>true</BindTime>
