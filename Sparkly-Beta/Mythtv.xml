@@ -38,6 +38,16 @@
 <ContainerPort>6544</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
+ <Port>
+<HostPort>65001</HostPort>
+<ContainerPort>65001</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+ <Port>
+<HostPort>65001</HostPort>
+<ContainerPort>65001</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
 </Publish>
 </Networking>
 <Environment>
