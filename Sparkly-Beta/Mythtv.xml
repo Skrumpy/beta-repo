@@ -34,6 +34,11 @@
 <Protocol>tcp</Protocol>
 </Port>
 <Port>
+<HostPort>5000</HostPort>
+<ContainerPort>5000</ContainerPort>
+<Protocol>udp</Protocol>
+</Port>
+<Port>
 <HostPort>5002</HostPort>
 <ContainerPort>5002</ContainerPort>
 <Protocol>udp</Protocol>
