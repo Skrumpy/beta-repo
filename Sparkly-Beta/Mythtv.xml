@@ -23,6 +23,11 @@
 <Networking>
 <Mode>bridge</Mode>
 <Publish>
+  <Port>
+<HostPort>3306</HostPort>
+<ContainerPort>3306</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
  <Port>
 <HostPort>3389</HostPort>
 <ContainerPort>3389</ContainerPort>
