@@ -21,11 +21,11 @@
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
-<Mode>bridge</Mode>
+<Mode>host</Mode>
 <Publish>
   <Port>
-<HostPort>3306</HostPort>
-<ContainerPort>3306</ContainerPort>
+<HostPort>3310</HostPort>
+<ContainerPort>3310</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
  <Port>
