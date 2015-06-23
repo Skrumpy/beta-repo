@@ -24,8 +24,8 @@
 <Mode>bridge</Mode>
 <Publish>
   <Port>
-<HostPort>80</HostPort>
-<ContainerPort>80</ContainerPort>
+<HostPort>6760</HostPort>
+<ContainerPort>6760</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
   <Port>
@@ -98,7 +98,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:80]/</WebUI>
+<WebUI>http://[IP]:[PORT:6760]/</WebUI>
 <Banner>http://i.imgur.com/y2R1EO3.png</Banner>
 <Icon>http://i.imgur.com/8co6Sip.png</Icon>
 </Container>
