@@ -24,7 +24,7 @@
 <Mode>host</Mode>
 <Publish>
   <Port>
-<HostPort>3310</HostPort>
+<HostPort>3306</HostPort>
 <ContainerPort>3310</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
