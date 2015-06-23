@@ -24,8 +24,13 @@
 <Mode>host</Mode>
 <Publish>
   <Port>
-<HostPort>3306</HostPort>
-<ContainerPort>3310</ContainerPort>
+<HostPort>7070</HostPort>
+<ContainerPort>80</ContainerPort>
+<Protocol>tcp</Protocol>
+</Port>
+  <Port>
+<HostPort>3310</HostPort>
+<ContainerPort>3306</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
  <Port>
@@ -93,7 +98,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI></WebUI>
+<WebUI>http://[IP]:[PORT:7070]/</WebUI>
 <Banner>http://i.imgur.com/y2R1EO3.png</Banner>
 <Icon>http://i.imgur.com/8co6Sip.png</Icon>
 </Container>
