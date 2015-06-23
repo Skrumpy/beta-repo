@@ -21,15 +21,15 @@
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
-<Mode>host</Mode>
+<Mode>bridge</Mode>
 <Publish>
   <Port>
-<HostPort>7070</HostPort>
+<HostPort>80</HostPort>
 <ContainerPort>80</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
   <Port>
-<HostPort>3310</HostPort>
+<HostPort>3306</HostPort>
 <ContainerPort>3306</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
@@ -98,7 +98,7 @@
 <Mode>rw</Mode>
 </Volume>
 </Data>
-<WebUI>http://[IP]:[PORT:7070]/</WebUI>
+<WebUI>http://[IP]:[PORT:80]/</WebUI>
 <Banner>http://i.imgur.com/y2R1EO3.png</Banner>
 <Icon>http://i.imgur.com/8co6Sip.png</Icon>
 </Container>
