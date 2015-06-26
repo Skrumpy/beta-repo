@@ -25,8 +25,8 @@ MYSQLuser :- The xbmc user for mysql host [b]NOT ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
 [b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE ISENGARD(15)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
-<Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-isengard-deb/</Registry>
-<Repository>sparklyballs/headless-kodi-isengard-deb</Repository>
+<Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-isengard/</Registry>
+<Repository>sparklyballs/headless-kodi-isengard</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
 <Networking>
