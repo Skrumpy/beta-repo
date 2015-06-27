@@ -94,7 +94,7 @@
 </Volume>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/Recordings</ContainerDir>
+<ContainerDir>/var/lib/mythtv</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
