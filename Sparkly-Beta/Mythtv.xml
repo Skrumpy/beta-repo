@@ -12,10 +12,14 @@
 - Initial Commit to private repo
 - Switch to mariadb for easier start routine
 - Sort minor dependency issues
+- Buckets and buckets of changes, 
+too many to list...
+[font size=4]2015.06.29[/font]
+- Release to beta
 </Changes>
-<Overview>Myth-Tv test installation, NOT FULLY WORKING AS YET</Overview>
-<Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
-<Description>Myth-Tv test installation</Description>
+<Overview>Myth-Tv, tv software, with mythweb</Overview>
+<Support>http://lime-technology.com/forum/index.php?topic=41110</Support>
+<Description>Myth-Tv installation, SEE SUPPORT THREAD</Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/sparkly-mythtv/</Registry>
 <Repository>sparklyballs/sparkly-mythtv</Repository>
 <BindTime>true</BindTime>
