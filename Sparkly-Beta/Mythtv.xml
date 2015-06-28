@@ -84,7 +84,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/home/mythtv/.mythtv</ContainerDir>
+<ContainerDir>/home/mythtv</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>
