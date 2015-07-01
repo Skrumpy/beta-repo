@@ -2,6 +2,12 @@
 <Container>
 <Name>Magpie</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Magpie Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>Network:Other Productivity: Tools:</Category>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
 <Overview>Magpie is a Python based note taking application that can be installed on your own server. It is a web tool for managing all your notes, in a git repository.</Overview>
