@@ -2,11 +2,11 @@
 <Container>
   <Name>Lxde-Libreoffice</Name>
   <Beta>False</Beta>
-
 <Changes>
 [center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
 
 [center][font size=5]Lxde-Libreoffice Change Log[/font][/center]
+[font size=4][/font]
 </Changes>
 <Category>Productivity:</Category>
   <Overview>LXDE desktop in a box with libreoffice (use remote desktop client to connect)</Overview>
