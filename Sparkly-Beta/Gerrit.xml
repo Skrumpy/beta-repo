@@ -7,6 +7,7 @@
 
 [center][font size=5]Gerrit Change Log[/font][/center]
 [font size=4][/font]
+</Changes>
 <Category>Network:Other Productivity: Tools:</Category>
 <Overview>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
