@@ -2,6 +2,11 @@
 <Container>
 <Name>Gerrit</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Gerrit Change Log[/font][/center]
+[font size=4][/font]
 <Category>Network:Other Productivity: Tools:</Category>
 <Overview>Gerrit is a web based code review system, facilitating online code reviews for projects using the Git version control system.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=38232</Support>
