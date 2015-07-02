@@ -2,6 +2,12 @@
 <Container>
 <Name>Unimediaserv</Name>
 <Beta>False</Beta>
+<Changes>
+[center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
+
+[center][font size=5]Unimediaserv Change Log[/font][/center]
+[font size=4][/font]
+</Changes>
 <Category>MediaServer:Video MediaServer:Music MediaServer:Photos</Category>
 <Overview>Universal Media Server is a media server capable of serving videos, audio and images to any DLNA-capable device.
 
