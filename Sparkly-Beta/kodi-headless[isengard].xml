@@ -18,10 +18,10 @@
 [font size=4]2015.07.03[/font]
 - Bump version to rc1
 </Changes>
-<Overview>A Headless installation of KODI (isengard 15beta1) to enable SB, CP etc to send updates to.</Overview>
+<Overview>A Headless installation of KODI (isengard rc1) to enable SB, CP etc to send updates to.</Overview>
 <Support>http://lime-technology.com/forum/index.php?topic=37209</Support>
 <Description>
-A Headless installation of KODI (isengard 15beta1) to enable SB, CP etc updates.[br][br]
+A Headless installation of KODI (isengard rc1) to enable SB, CP etc updates.[br][br]
 [br]
 Follow info here for MYSQL setup details:-[br] http://kodi.wiki/view/HOW-TO:Sync_multiple_libraries/Setting_up_MySQL[br]
 [b][span style='color: #E80000;']Directions:[/span][/b][br]
@@ -31,7 +31,7 @@ MYSQLip :- IP address of your mysql installation [br][b]YOU MUST USE IP ADDRESS 
 MYSQLport :- the port number for mysql on your mysql host (usually 3306)[br]
 MYSQLuser :- The xbmc user for mysql host [b]NOT ROOT[/b] [br]
 MYSQLpass :- The xmbc password for mysql host[br]
-[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE ISENGARD(15)[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
+[b]OTHER KODI INSTALLS ON YOUR LOCAL NETWORK MUST BE ISENGARD(15)beta 2 or later[br] AND HAVE SAME SETTINGS IN advancedsettings.xml TO SHARE A COMMON LIBRARY[/b]
 </Description>
 <Registry>https://registry.hub.docker.com/u/sparklyballs/headless-kodi-isengard/</Registry>
 <Repository>sparklyballs/headless-kodi-isengard</Repository>
