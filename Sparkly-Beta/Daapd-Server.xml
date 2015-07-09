@@ -8,7 +8,8 @@
 [center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
 
 [center][font size=5]Daapd-Server Change Log[/font][/center]
-[font size=4][/font]
+[font size=4]2015-07-09[/font]
+- Initial Release
 </Changes>
 <Description>Server that allows you to play your music folders in itunes without importing them, map /music to your library and /config to your appdata share.</Description>
 <Support>http://lime-technology.com/forum/index.php?topic=41394.0</Support>
