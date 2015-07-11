@@ -38,11 +38,6 @@ It has support for AirPlay devices/speakers, Apple Remote (and compatibles), MPD
 <ContainerPort>3689</ContainerPort>
 <Protocol>tcp</Protocol>
 </Port>
-<Port>
-<HostPort>3689</HostPort>
-<ContainerPort>3689</ContainerPort>
-<Protocol>udp</Protocol>
-</Port>
 </Publish>
 </Networking>
 <Data>
