@@ -8,6 +8,10 @@
 [center][img width='300px' src='http://i117.photobucket.com/albums/o43/sparklyballs_album/Fubar/sparklyballs2.gif'][/center]
 
 [center][font size=5]Daapd-Server Change Log[/font][/center]
+[font size=4]2015-07-11[/font]
+- Bumped libav to version 11
+- Reverted back to running as root,
+permissions a pig with this one.
 [font size=4]2015-07-10[/font]
 - Switched to libav9, libevent2.15, and sqlite3 older version,
 (all self compiled).
