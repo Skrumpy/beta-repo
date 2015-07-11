@@ -9,7 +9,8 @@
 
 [center][font size=5]Daapd-Server Change Log[/font][/center]
 [font size=4]2015-07-11[/font]
-- Bumped libav to version 11
+- Changed over to ffmpeg release 27,
+200MB smaller image.
 - Reverted back to running as root,
 permissions a pig with this one.
 [font size=4]2015-07-10[/font]
