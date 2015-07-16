@@ -39,6 +39,11 @@
       <ContainerDir>/home/ubuntu/.config</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
+      <Volume>
+      <HostDir></HostDir>
+      <ContainerDir>/home/ubuntu/.wine</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
   </Data>
   <WebUI></WebUI>
   <Banner></Banner>
