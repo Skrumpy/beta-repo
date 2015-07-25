@@ -2,6 +2,7 @@
 <Container>
 <Name>Maria-WebSQL</Name>
 <Beta>False</Beta>
+<Project>https://mariadb.org/</Project>
 <Category>Network:Other Tools:</Category>
 <Date>2015-06-12</Date>
 <Changes>
