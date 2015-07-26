@@ -34,6 +34,12 @@
 </Port>
 </Publish>
 </Networking>
+<Environment>
+<Variable>
+<Name>world</Name>
+<Value></Value>
+</Variable>
+</Environment>
 <Data>
 <Volume>
 <HostDir></HostDir>
