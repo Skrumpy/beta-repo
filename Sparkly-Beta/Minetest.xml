@@ -43,7 +43,12 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/home/minetest/.minetest</ContainerDir>
+<ContainerDir>/config</ContainerDir>
+<Mode>rw</Mode>
+</Volume>
+<Volume>
+<HostDir></HostDir>
+<ContainerDir>/opt/minetest/share/minetest/games</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 </Data>
