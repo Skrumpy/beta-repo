@@ -46,7 +46,7 @@
 <Data>
 <Volume>
 <HostDir></HostDir>
-<ContainerDir>/config</ContainerDir>
+<ContainerDir>/config/.minetest</ContainerDir>
 <Mode>rw</Mode>
 </Volume>
 <Volume>
