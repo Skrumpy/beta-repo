@@ -37,7 +37,16 @@ It has support for AirPlay devices/speakers, Apple Remote (and compatibles), MPD
 <Repository>sparklyballs/docker-daapd</Repository>
 <BindTime>true</BindTime>
 <Privileged>false</Privileged>
-<Environment/>
+<Environment>
+<Variable>
+<Name>PGID</Name>
+<Value>100</Value>
+</Variable>
+<Variable>
+<Name>PUID</Name>
+<Value>99</Value>
+</Variable>
+</Environment>
 <Networking>
 <Mode>bridge</Mode>
 <Publish>
@@ -62,4 +71,5 @@ It has support for AirPlay devices/speakers, Apple Remote (and compatibles), MPD
 </Data>
 <Banner></Banner>
 <Icon>http://i.imgur.com/lAzFI2L.png</Icon>
+<ExtraParams>-v /var/run/dbus:/var/run/dbus:ro</ExtraParams>
 </Container>
