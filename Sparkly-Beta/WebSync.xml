@@ -7,8 +7,11 @@
 
 [center][font size=5]WebSync Change Log[/font][/center]
 [font size=4][/font]
+[font size=4]2015-10-30[/font]
+Swap in linuxserver version, this is to act as test for linuxserver version in lieu of possible release. 
 </Changes>
 <Category>Backup: Tools:</Category>
+<Date>2015-10-30</Date>
   <Support>http://lime-technology.com/forum/index.php?topic=39646</Support>
   <Description>An easy way to manage rsync jobs.[/br]With websync's great and intuitive user interface you can now easily set up and schedule backup tasks.</Description>
   <Overview>An easy way to manage rsync jobs.[/br]With websync's great and intuitive user interface you can now easily set up and schedule backup tasks.</Overview>
